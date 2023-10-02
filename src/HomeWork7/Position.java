@@ -34,12 +34,12 @@ class Accountant implements PositionPrinter {
 
  class Main {
     public static void main(String[] args) {
-        // Создаем объекты классов Директор, Рабочий, Бухгалтер
+        // Создаю объекты классов Director, Worker, Accountant
         Director director = new Director();
         Worker worker = new Worker();
         Accountant accountant = new Accountant();
 
-        // Вызываем метод printPosition() для объектов классов Директор, Рабочий, Бухгалтер
+        // Вызов метода printPosition() для объектов классов Director, Worker, Accountant
         director.printPosition();
         worker.printPosition();
         accountant.printPosition();
